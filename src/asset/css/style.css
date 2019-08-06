@@ -1,0 +1,173 @@
+.Navbar{
+    background: darkcyan;
+    height: 50px;
+}
+.Navbar-item{
+    padding: 12px;
+    position: relative;
+    top: 10px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.Navbar-brand{
+    float: left;
+}
+.Web-title{
+    top: -17px;
+    margin-left: 15px;
+    position: relative;
+    font-size: 25px;
+    color: white;
+}
+.document-title{
+    position: relative;
+   left: -50px;
+}
+.card-post{
+    width: 500px;
+    display: flex;
+    border: 1px solid rgb(53, 50, 50);
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.card-post-image{
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+.card-post-body{
+    flex: 1px
+}
+.card-post-title{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15px;
+}
+p.card-post-title:hover{
+    cursor: pointer;
+    color: rgb(11, 71, 161)
+}
+.card-post-desc{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.6;
+    padding-left: 15px;
+}
+.btn{
+    border-radius: 4px;
+    color: white;
+    text-decoration: none
+}
+.btn-delete{
+    background: rgb(252, 45, 8);
+    outline: none;
+    padding: 6px 12px;
+    margin-top: 10px;
+}
+.btn-update{
+    background: rgb(236, 233, 31);
+    outline: none;
+    padding: 6px 12px;
+    margin-top: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-add{
+    background: rgb(17, 89, 221);
+    outline: none;
+    padding: 5px 10px;    
+    margin: 15px;
+}
+.btn-save{
+    background: rgb(17, 89, 221);
+    outline: none;
+    padding: 5px 10px;    
+    margin: 10px;
+}
+.input{     
+    border:1px outset rgb(17, 89, 221);
+}
+.limit{
+    width: 50px;
+    height:20px;
+}
+.modal{
+    position:fixed;
+    top:0;    
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:999;
+    opacity:0;
+    pointer-events:none;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    transition:all 0.3s;
+}
+.modal:target{
+    background:black;
+    opacity:0.93;
+    pointer-events:auto;
+}
+.form-group{
+    width:250px;
+    height: auto;
+    padding: 5px;
+    border: 3px solid rgb(9, 247, 88);
+    opacity: 1;
+    position:relative;
+    margin:10% auto;   
+    background:white;
+    display: block;
+}
+.modal-close{
+    float: right;  
+    margin-top: -85px;
+    width: 20px;
+    height: 20px;
+    color:red;
+    line-height:50px;
+    text-decoration:none;
+}
+.form-label{
+    font-weight: bold;
+    color: black
+}
+.form-control{
+    display: block;
+    margin: 15px
+}
+.data{
+    display: inline;
+    margin-right: 10px;
+}
+.post{
+    width: 60%;
+}
+.post-title{   
+    margin-bottom: 5px;
+    display: flex;
+    right: 100px;
+    position: relative;
+    text-align: left;
+    
+}
+.post-id,.post-authorId{
+    padding: 10px;
+    left: 30px;
+    position: relative;
+    margin-top: 150px;    
+    color: rgb(158, 154, 154)       
+}
+.post-body{
+    margin:40px;
+    font-size:20px;
+}
